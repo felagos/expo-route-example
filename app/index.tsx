@@ -1,7 +1,6 @@
+import { Redirect } from "expo-router";
 import { View } from "react-native";
 
 export default () => {
-    return (
-        <View />
-    );
+    return <Redirect href={"/(tabs)"} />;
 }
